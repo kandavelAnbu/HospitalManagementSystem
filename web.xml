@@ -1,0 +1,32 @@
+<web-app>
+    
+    <servlet>
+        <servlet-name> Hospital </servlet-name>
+        <servlet-class> com.objectfrontier.training.habs.servlet.HospitalServlet </servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name> Hospital </servlet-name>
+        <url-pattern> /hospital </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> Doctor </servlet-name>
+        <servlet-class> com.objectfrontier.training.habs.servlet.DoctorServlet </servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name> Doctor </servlet-name>
+        <url-pattern> /doctor </url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name> Patient </servlet-name>
+        <servlet-class> com.objectfrontier.training.habs.servlet.PatientServlet </servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name> Patient </servlet-name>
+        <url-pattern> /patient </url-pattern> 
+    </servlet-mapping>  
+</web-app>
